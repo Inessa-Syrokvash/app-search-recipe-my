@@ -4,8 +4,8 @@ import video from './video.mp4';
 import MyRecipeComponents from './MyRecipeComponents';
 
 function App() {
-  const MY_ID = `edf9ac7d`;
-  const MY_KEY = `ee881dba84bbaa43fb37c2e59766be52`;
+  const MY_ID = 'edf9ac7d';
+  const MY_KEY = 'ee881dba84bbaa43fb37c2e59766be52';
 
   const [mySearch, setMySearch] = useState('');
   const [myRecipes, setMyRecipes] = useState([]);
