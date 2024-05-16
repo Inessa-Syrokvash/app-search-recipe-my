@@ -7,7 +7,7 @@ function MyRecipeComponents({label, cuisineType, dishType,
         <div className="recipe">
 
             <div className="container">
-                <h2>{label} <br /> <span className="spanOne">({cuisineType}, {dishType})</span></h2>   
+                <h2>{label} <br /> <span className="spanOne">({cuisineType} cuisine; {dishType})</span></h2>   
             </div>
 
             <div className="top">
